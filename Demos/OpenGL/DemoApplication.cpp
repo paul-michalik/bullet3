@@ -1115,10 +1115,10 @@ void DemoApplication::setOrthographicProjection()
 	glLoadIdentity();
 
 	// invert the y axis, down is positive
-	glScalef(1, -1, 1);
+	//glScalef(1, -1, 1);
 	// mover the origin from the bottom left corner
 	// to the upper left corner
-	glTranslatef(btScalar(0), btScalar(-m_glutScreenHeight), btScalar(0));
+	//glTranslatef(btScalar(0), btScalar(-m_glutScreenHeight), btScalar(0));
 
 }
 
